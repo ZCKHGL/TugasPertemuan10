@@ -14,8 +14,8 @@ import java.util.Scanner;
  */
 public class Game {
 
-    private int secretNumber;
-    private int guessLimit;
+    int secretNumber;
+    int guessLimit;
 
     public Game(int guessLimit) {
         this.guessLimit = guessLimit;

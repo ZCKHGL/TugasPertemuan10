@@ -7,7 +7,6 @@ package TgsPertemuan10;
 
 import java.util.Random;
 
-
 /**
  *
  * @author A-12
@@ -15,8 +14,13 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        Game game = new Game();
-        game.play();
-
+// Contoh Game Tebak Angka
+        NumberGuessing numberGame;
+        numberGame = new NumberGuessing(7);
+        numberGame.play();
+// Contoh Game Tebak Kata
+        String[] words = {"apel", "pisang", "mangga"};
+        WordGuessing wordGame = new WordGuessing(5, words);
+        wordGame.play();
     }
 }
